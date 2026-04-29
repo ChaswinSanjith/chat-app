@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #dfe9f3, #ffffff);
+}
+
+.app {
+  width: 360px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+/* SEARCH */
+.search {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #f1f3f6;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.search:focus {
+  background: #e8ecf1;
+}
+
+/* CHAT ITEM */
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.chat-item:hover {
+  background: #f5f7fa;
+  transform: scale(1.02);
+}
+
+/* AVATAR */
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+/* TEXT AREA */
+.chat-info {
+  flex: 1;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-row h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 12px;
+  color: #888;
+}
+
+.chat-info p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* STAR */
+.star {
+  color: gold;
+  font-size: 16px;
+  margin-left: 8px;
+}
